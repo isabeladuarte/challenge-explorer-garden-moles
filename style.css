@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+  
+.container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.moles {
+  display: grid;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  gap: 54px;
+  grid-template: 
+  "mole1 mole2 mole3 mole4"               
+  "mole5 mole6 mole7 mole8"
+  "mole9 mole10 mole11 mole12";
+}
+
+.moles div:nth-child(1) {
+  grid-area: mole1;
+}
+
+.moles div:nth-child(2) {
+  grid-area: mole2;
+}
+
+.moles div:nth-child(3) {
+  grid-area: mole3;
+}
+
+.moles div:nth-child(4) {
+  grid-area: mole4;
+}
+
+.moles div:nth-child(5) {
+  grid-area: mole5;
+}
+
+.moles div:nth-child(6) {
+  grid-area: mole6;
+}
+
+.moles div:nth-child(7) {
+  grid-area: mole7;
+}
+
+.moles div:nth-child(8) {
+  grid-area: mole8;
+}
+
+.moles div:nth-child(9) {
+  grid-area: mole9;
+}
+
+.moles div:nth-child(10) {
+  grid-area: mole10;
+}
+
+.moles div:nth-child(11) {
+  grid-area: mole11;
+}
+
+.moles div:nth-child(12) {
+  grid-area: mole12;
+}
+
+.moles img {
+  animation: moles infinite;
+  animation-duration: 7s;
+}
+
+@keyframes moles {
+  0% {
+    content: url('./assets/toupeira6.svg');
+  }
+  20% {
+    content: url('./assets/toupeira2.svg');
+  }
+  40% {
+    content: url('./assets/toupeira3.svg');
+  }
+  60% {
+    content: url('./assets/toupeira1.svg');
+  }
+  80% {
+    content: url('./assets/toupeira4.svg');
+  }
+  100% {
+    content: url('./assets/toupeira5.svg');
+  }
+}
+
+
+
