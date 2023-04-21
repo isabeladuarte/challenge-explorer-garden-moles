@@ -22,62 +22,66 @@
   "mole9 mole10 mole11 mole12";
 }
 
-.moles div:nth-child(1) {
+.moles img:nth-child(1) {
   grid-area: mole1;
+  animation: moles 7s normal;
 }
 
-.moles div:nth-child(2) {
+.moles img:nth-child(2) {
   grid-area: mole2;
 }
 
-.moles div:nth-child(3) {
+.moles img:nth-child(3) {
   grid-area: mole3;
+  animation: moles 10000ms infinite;
 }
 
-.moles div:nth-child(4) {
+.moles img:nth-child(4) {
   grid-area: mole4;
 }
 
-.moles div:nth-child(5) {
+.moles img:nth-child(5) {
   grid-area: mole5;
+  animation: moles 10000ms reverse infinite;
 }
 
-.moles div:nth-child(6) {
+.moles img:nth-child(6) {
   grid-area: mole6;
+  animation: moles 7s reverse normal;
 }
 
-.moles div:nth-child(7) {
+.moles img:nth-child(7) {
   grid-area: mole7;
 }
 
-.moles div:nth-child(8) {
+.moles img:nth-child(8) {
   grid-area: mole8;
+  animation: moles 7s reverse infinite;
 }
 
-.moles div:nth-child(9) {
+.moles img:nth-child(9) {
   grid-area: mole9;
+  animation: moles 7s forwards normal;
 }
 
-.moles div:nth-child(10) {
+.moles img:nth-child(10) {
   grid-area: mole10;
+  animation: moles 20s forwards normal;
 }
 
-.moles div:nth-child(11) {
+.moles img:nth-child(11) {
   grid-area: mole11;
+  animation: moles 10000ms reverse normal;
 }
 
-.moles div:nth-child(12) {
+.moles img:nth-child(12) {
   grid-area: mole12;
-}
-
-.moles img {
-  animation: moles infinite;
-  animation-duration: 7s;
+  animation: moles 10s forwards normal;
 }
 
 @keyframes moles {
   0% {
-    content: url('./assets/toupeira6.svg');
+    content: url('./assets/toupeira5.svg');
   }
   20% {
     content: url('./assets/toupeira2.svg');
@@ -92,7 +96,7 @@
     content: url('./assets/toupeira4.svg');
   }
   100% {
-    content: url('./assets/toupeira5.svg');
+    content: url('./assets/toupeira6.svg');
   }
 }
 
